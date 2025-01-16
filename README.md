@@ -301,7 +301,7 @@ pyinstaller --onefile \
             --add-data "./src/TemasRecomendados:TemasRecomendados" \
             --add-data "./src/cli:cli" \
             --add-data "./src/config:config" \
-   g         --add-data "./src/lib:lib" \
+            --add-data "./src/lib:lib" \
             ./src/cli/main.py
 ```
 
