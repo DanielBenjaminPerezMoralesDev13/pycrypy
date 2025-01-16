@@ -291,6 +291,10 @@ pycrypy -V
 **Here is the equivalent `pyinstaller` command for the configuration you provided:**
 
 ```bash
+pyinstaller ./pycrypy.spec
+```
+
+```bash
 pyinstaller --onefile \
             --noconfirm \
             --clean \

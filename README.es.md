@@ -289,10 +289,8 @@ pycrypy -V
 
 **Aquí está el comando `pyinstaller` equivalente a la configuración que has proporcionado:**
 
-```bash
-# Mover al directorio source (fuente)
-cd ./src
-```
+> [!NOTE]
+> **Mover al directorio source (fuente)**
 
 ```bash
 pyinstaller --onefile \
