@@ -107,7 +107,8 @@ class Cli():
 
         self.parser.add_argument(
             "-P","--theme-path",
-            dest = "themePath",
+            # Sin dest, el valor se guardaría con el nombre del argumento largo (theme_path en este caso, convirtiendo - en _).
+            dest = "themePath", # Especifica el nombre de la variable interna donde se guardará el valor cuando el usuario proporcione este argumento en la línea de comandos.
             type = str,
             default = False, # Valor por defecto
             nargs='?', #  Este valor significa que el argumento puede ser seguido por un valor opcional. Si el valor es proporcionado, se capturará; si no se proporciona, el valor predeterminado se utilizará si se ha especificado uno.
